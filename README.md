@@ -27,8 +27,7 @@ There are 3 diff phases of component life cycle:
 
 all the methods are called in order
 
-* In Updating phase:
-when there is any change in the state object the render() method will be called
+* In Updating phase, when there is any change in the state object the render() method will be called
 
 * In Unmounting phase, cleanup activities are performed like clearing timers and cancelling API calls etc, it has 1 method mainly:
   - componentWillUnmount()
